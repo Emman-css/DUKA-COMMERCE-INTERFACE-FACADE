@@ -42,9 +42,7 @@
           class="fa fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 text-sm"
         ></i>
         <input
-          type="text"
-          placeholder="Search or type a command"
-          class="w-full bg-gray-200 rounded-lg pl-9 pr-3 py-2 text-xs focus:outline-none"
+          class="w-full bg-gray-200 rounded-lg pl-9 pr-3 py-2 text-xs focus:outline-none max-w-[90vw] mx-auto md:max-w-full"
         />
       </div>
 
@@ -61,32 +59,45 @@
     <div class="flex min-h-[calc(100vh-64px)] relative">
       <!-- SIDEBAR -->
       <aside
-        class="sidebar fixed md:static inset-y-0 left-0 z-40 w-[170px] bg-white border-r p-3 flex flex-col justify-between
-        transform -translate-x-full md:translate-x-0 transition-transform duration-300"
+        class="sidebar fixed md:static inset-y-0 left-0 z-40 w-[170px] bg-white border-r p-3 flex flex-col justify-between transform -translate-x-full md:translate-x-0 transition-transform duration-300"
       >
         <nav class="space-y-2 text-sm">
-          <a class="flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-100">
+          <a
+            class="flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-100"
+          >
             <i class="fa fa-home"></i> Home
           </a>
-          <a class="flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-100">
+          <a
+            class="flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-100"
+          >
             <i class="fa fa-cubes"></i> Products
           </a>
-          <a class="flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-100">
+          <a
+            class="flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-100"
+          >
             <i class="fa fa-users"></i> Customers
           </a>
-          <a class="flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-100">
+          <a
+            class="flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-100"
+          >
             <i class="fa fa-shopping-cart"></i> Shop
           </a>
-          <a class="flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-100">
+          <a
+            class="flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-100"
+          >
             <i class="fa fa-dollar-sign"></i> Income
           </a>
         </nav>
 
         <div class="space-y-2 text-sm">
-          <button class="w-full flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-100">
+          <button
+            class="w-full flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-100"
+          >
             <i class="fa fa-question-circle"></i> Help
           </button>
-          <button class="w-full flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-100">
+          <button
+            class="w-full flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-100"
+          >
             <i class="fa fa-right-from-bracket"></i> Logout
           </button>
         </div>
@@ -171,5 +182,3 @@
     </div>
   </body>
 </html>
-
-
